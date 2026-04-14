@@ -28,7 +28,6 @@ class _UserListScreenState extends State<UserListScreen> {
       ),
       body: Column(
         children: [
-          // Hiển thị thông tin sinh viên theo yêu cầu
           Container(
             padding: const EdgeInsets.all(10),
             width: double.infinity,
