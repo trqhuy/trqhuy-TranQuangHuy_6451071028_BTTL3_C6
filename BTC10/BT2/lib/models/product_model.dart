@@ -17,7 +17,6 @@ class Product {
     return Product(
       id: json['id'],
       title: json['title'],
-      // API có thể trả về price là int hoặc double, nên cần ép kiểu
       price: (json['price'] as num).toDouble(),
       description: json['description'],
       image: json['image'],
