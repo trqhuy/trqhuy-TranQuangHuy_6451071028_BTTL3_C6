@@ -5,7 +5,6 @@ class User {
 
   User({required this.id, required this.name, required this.email});
 
-  // Chuyển đổi từ JSON sang Object User
   factory User.fromJson(Map<String, dynamic> json) {
     return User(
       id: json['id'],
